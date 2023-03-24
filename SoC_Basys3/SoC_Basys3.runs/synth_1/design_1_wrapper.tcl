@@ -67,6 +67,8 @@ set_property used_in_implementation false [get_files -all c:/Users/Louis/Desktop
 set_property used_in_implementation false [get_files -all c:/Users/Louis/Desktop/SoC_TP_ENSEA/SoC_Basys3/SoC_Basys3.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_board.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Louis/Desktop/SoC_TP_ENSEA/SoC_Basys3/SoC_Basys3.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Louis/Desktop/SoC_TP_ENSEA/SoC_Basys3/SoC_Basys3.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Louis/Desktop/SoC_TP_ENSEA/SoC_Basys3/SoC_Basys3.srcs/sources_1/bd/design_1/ip/design_1_axi_timer_0_0/design_1_axi_timer_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Louis/Desktop/SoC_TP_ENSEA/SoC_Basys3/SoC_Basys3.srcs/sources_1/bd/design_1/ip/design_1_axi_timer_0_0/design_1_axi_timer_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all C:/Users/Louis/Desktop/SoC_TP_ENSEA/SoC_Basys3/SoC_Basys3.srcs/sources_1/bd/design_1/design_1_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Louis/Desktop/SoC_TP_ENSEA/SoC_Basys3/SoC_Basys3.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_0/data/mb_bootloop_le.elf]
 
