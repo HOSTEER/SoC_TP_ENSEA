@@ -752,3 +752,297 @@ mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
 20:36:29 **** Incremental Build of configuration Debug for project Test_Timer ****
 make all 
 make: Nothing to be done for 'all'.
+20:37:11 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8892	    360	   3316	  12568	   3118	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:37:38 **** Incremental Build of configuration Debug for project Test_Timer ****
+make all 
+make: Nothing to be done for 'all'.
+20:42:31 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8976	    360	   3312	  12648	   3168	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:42:55 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8880	    360	   3312	  12552	   3108	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:43:19 **** Incremental Build of configuration Debug for project Test_Timer ****
+make all 
+make: Nothing to be done for 'all'.
+20:43:43 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8888	    360	   3312	  12560	   3110	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:43:44 **** Incremental Build of configuration Debug for project Test_Timer ****
+make all 
+make: Nothing to be done for 'all'.
+20:45:48 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'Animer_message':
+../src/main.c:54:33: warning: left shift count >= width of type [-Wshift-count-overflow]
+  uint16_t SwData=(*ptrSw&0x000F)<<8+256;
+                                 ^~
+../src/main.c:54:33: warning: suggest parentheses around '+' inside '<<' [-Wparentheses]
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8836	    360	   3316	  12512	   30e0	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:46:02 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8900	    360	   3316	  12576	   3120	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:46:05 **** Incremental Build of configuration Debug for project Test_Timer ****
+make all 
+make: Nothing to be done for 'all'.
+20:46:40 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8904	    360	   3312	  12576	   3120	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:46:41 **** Incremental Build of configuration Debug for project Test_Timer ****
+make all 
+make: Nothing to be done for 'all'.
+20:49:19 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'Animer_message':
+../src/main.c:55:10: error: 'sens' redeclared as different kind of symbol
+  uint8_t sens=*ptrSw&0x8000;
+          ^~~~
+../src/main.c:51:29: note: previous definition of 'sens' was here
+ void Animer_message(uint8_t sens){//sens de défilement, à gauche 0, à droite 1
+                     ~~~~~~~~^~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+20:49:30 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8904	    360	   3312	  12576	   3120	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:49:45 **** Incremental Build of configuration Debug for project Test_Timer ****
+make all 
+make: Nothing to be done for 'all'.
+20:50:45 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8904	    360	   3312	  12576	   3120	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:50:51 **** Incremental Build of configuration Debug for project Test_Timer ****
+make all 
+make: Nothing to be done for 'all'.
+20:52:09 **** Incremental Build of configuration Debug for project Test_Timer ****
+make all 
+make: Nothing to be done for 'all'.
+20:52:20 **** Incremental Build of configuration Debug for project Test_Timer ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:48 **** Incremental Build of configuration Debug for project Test_Timer ****
+make all 
+make: Nothing to be done for 'all'.
+20:54:48 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8528	    360	   3312	  12200	   2fa8	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:54:51 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8528	    360	   3312	  12200	   2fa8	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:54:52 **** Incremental Build of configuration Debug for project Test_Timer ****
+make all 
+make: Nothing to be done for 'all'.
+20:55:07 **** Incremental Build of configuration Debug for project Test_Timer ****
+make all 
+make: Nothing to be done for 'all'.
+21:21:31 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8612	    360	   3316	  12288	   3000	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+21:21:36 **** Incremental Build of configuration Debug for project Test_Timer ****
+make all 
+make: Nothing to be done for 'all'.
+21:23:06 **** Incremental Build of configuration Debug for project Test_Timer ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:12 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8612	    360	   3316	  12288	   3000	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '

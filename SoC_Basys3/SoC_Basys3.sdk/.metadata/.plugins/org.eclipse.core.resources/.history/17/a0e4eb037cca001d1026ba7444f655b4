@@ -8,6 +8,8 @@
 
 #define MAX 18
 
+#define SHIFTING_COUNT 508 //Plus il est bas, plus le message défilera vite
+
 XTmrCtr timer;
 XIntc xintc;
 
@@ -46,16 +48,13 @@ void Afficher_hello(uint8_t position){//affiche une partie du message avec un dé
 		case 15:{*ptrSegCa=0x8E;break;}
 		default:{*ptrSegCa=0xFF;break;}
 	}
+	usleep(1000);
 }
 
-void Animer_message(){//sens de défilement, à gauche 0, à droite 1
-	volatile uint16_t * ptrSw = (uint16_t *)(XPAR_AXI_GPIO_2_BASEADDR);
-	*(ptrSw+0x0002)=1;
-	uint16_t shiftingCount=((*ptrSw&0x000F)<<9)+512;
-	uint8_t sens=(*ptrSw&0x8000)>>15;
+void Animer_message(uint8_t sens){//sens de défilement, à gauche 0, à droite 1
 	static uint16_t countBeforeShifting=0;
 	static uint8_t decalage=0;
-	if(countBeforeShifting>shiftingCount){
+	if(countBeforeShifting>SHIFTING_COUNT){
 		countBeforeShifting=0;
 		switch(sens){
 			case 0:{if(decalage==MAX-4){decalage=0;};decalage++;break;}
@@ -89,7 +88,7 @@ int Interrupt_init(){
 }
 
 void Timer_isr(void *CallBackRef, u8 TmrCtrNumber){
-	Animer_message();
+	Animer_message(0);
 }
 
 int Timer_init(){
@@ -116,7 +115,6 @@ int main()
     }else{print("Interrupt init successful\n\r");}
 
     XTmrCtr_Start(&timer,0);
-    while(1){};//tempo car les switch ne sont pu actualisés après le cleanup_platform()
 
     cleanup_platform();
     return 0;

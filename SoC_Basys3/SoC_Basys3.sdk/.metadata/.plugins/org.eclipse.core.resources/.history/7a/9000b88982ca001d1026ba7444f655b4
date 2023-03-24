@@ -116,7 +116,7 @@ int main()
     }else{print("Interrupt init successful\n\r");}
 
     XTmrCtr_Start(&timer,0);
-    while(1){};//tempo car les switch ne sont pu actualisés après le cleanup_platform()
+    while(1){};
 
     cleanup_platform();
     return 0;
