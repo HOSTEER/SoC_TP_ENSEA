@@ -1,4 +1,4 @@
-21:29:12 **** Auto Build of configuration Debug for project Test_Timer ****
+21:30:05 **** Auto Build of configuration Debug for project Test_Timer ****
 make all 
 'Building file: ../src/main.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -17,5 +17,5 @@ mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
 'Finished building: Test_Timer.elf.size'
 ' '
 
-21:29:13 Build Finished (took 1s.81ms)
+21:30:05 Build Finished (took 800ms)
 

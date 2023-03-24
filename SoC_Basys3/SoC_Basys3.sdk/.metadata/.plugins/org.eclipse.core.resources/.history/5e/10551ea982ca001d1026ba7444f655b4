@@ -97,7 +97,7 @@ int Timer_init(){
 	if (Status != XST_SUCCESS) return XST_FAILURE;
 	XTmrCtr_SetHandler(&timer,Timer_isr,&timer);
 	XTmrCtr_SetOptions(&timer,0,XTC_INT_MODE_OPTION | XTC_AUTO_RELOAD_OPTION);
-	XTmrCtr_SetResetValue(&timer,0,0xFFFFFFFF-12500);//12500 pour 1ms
+	XTmrCtr_SetResetValue(&timer,0,0xFFFFFFFF-12500);
 	return XST_SUCCESS;
 }
 
