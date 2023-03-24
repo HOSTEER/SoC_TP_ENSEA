@@ -51,7 +51,6 @@ int Timer_init(){
 	XTmrCtr_SetHandler(&timer,Timer_isr,&timer);
 	XTmrCtr_SetOptions(&timer,0,XTC_INT_MODE_OPTION | XTC_AUTO_RELOAD_OPTION);
 	XTmrCtr_SetResetValue(&timer,0,0xFFFFFFFF-100000000/8);
-	return XST_SUCCESS;
 }
 
 int main()

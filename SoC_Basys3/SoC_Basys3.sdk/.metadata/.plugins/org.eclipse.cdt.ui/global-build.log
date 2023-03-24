@@ -484,3 +484,271 @@ mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
 19:55:59 **** Incremental Build of configuration Debug for project Test_Timer ****
 make all 
 make: Nothing to be done for 'all'.
+20:02:37 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'Timer_init':
+../src/main.c:108:28: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+  XTmrCtr_SetHandler(&timer,Animer_message,&timer);
+                            ^~~~~~~~~~~~~~
+In file included from ../src/main.c:5:
+../../Test_Timer_bsp/microblaze_0/include/xtmrctr.h:317:64: note: expected 'XTmrCtr_Handler' {aka 'void (*)(void *, unsigned char)'} but argument is of type 'void (*)(uint8_t)' {aka 'void (*)(unsigned char)'}
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+                                                ~~~~~~~~~~~~~~~~^~~~~~~
+../src/main.c:111:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8820	    360	   3316	  12496	   30d0	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:02:42 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'Timer_init':
+../src/main.c:93:28: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+  XTmrCtr_SetHandler(&timer,Animer_message,&timer);
+                            ^~~~~~~~~~~~~~
+In file included from ../src/main.c:5:
+../../Test_Timer_bsp/microblaze_0/include/xtmrctr.h:317:64: note: expected 'XTmrCtr_Handler' {aka 'void (*)(void *, unsigned char)'} but argument is of type 'void (*)(uint8_t)' {aka 'void (*)(unsigned char)'}
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+                                                ~~~~~~~~~~~~~~~~^~~~~~~
+../src/main.c:96:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8820	    360	   3316	  12496	   30d0	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:03:23 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'Timer_init':
+../src/main.c:111:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7880	    340	   3316	  11536	   2d10	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:03:46 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'Timer_init':
+../src/main.c:100:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8892	    360	   3316	  12568	   3118	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:04:21 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8896	    360	   3312	  12568	   3118	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:04:40 **** Incremental Build of configuration Debug for project Test_Timer ****
+make all 
+make: Nothing to be done for 'all'.
+20:06:43 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8836	    360	   3316	  12512	   30e0	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:06:46 **** Incremental Build of configuration Debug for project Test_Timer ****
+make all 
+make: Nothing to be done for 'all'.
+20:08:39 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8800	    360	   3312	  12472	   30b8	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:08:48 **** Incremental Build of configuration Debug for project Test_Timer ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:09 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8800	    360	   3312	  12472	   30b8	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:10:10 **** Incremental Build of configuration Debug for project Test_Timer ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:36 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8896	    360	   3312	  12568	   3118	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:15:12 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8892	    360	   3316	  12568	   3118	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:15:22 **** Incremental Build of configuration Debug for project Test_Timer ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:02 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'Timer_init':
+../src/main.c:54:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7880	    340	   3316	  11536	   2d10	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:36:16 **** Auto Build of configuration Debug for project Test_Timer ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_Timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_Timer.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_Timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_Timer.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_Timer.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_Timer.elf  |tee "Test_Timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7884	    340	   3320	  11544	   2d18	Test_Timer.elf
+'Finished building: Test_Timer.elf.size'
+' '
+20:36:29 **** Incremental Build of configuration Debug for project Test_Timer ****
+make all 
+make: Nothing to be done for 'all'.
