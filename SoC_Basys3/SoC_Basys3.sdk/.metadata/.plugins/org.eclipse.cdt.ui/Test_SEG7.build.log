@@ -1,0 +1,21 @@
+11:37:57 **** Auto Build of configuration Debug for project Test_SEG7 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_SEG7_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_SEG7.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_SEG7_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_SEG7.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_SEG7.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_SEG7.elf  |tee "Test_SEG7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3692	    312	   3116	   7120	   1bd0	Test_SEG7.elf
+'Finished building: Test_SEG7.elf.size'
+' '
+
+11:37:58 Build Finished (took 747ms)
+

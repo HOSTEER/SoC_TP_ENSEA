@@ -1,0 +1,21 @@
+19:20:21 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    332	   3116	   7272	   1c68	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+
+19:20:22 Build Finished (took 744ms)
+

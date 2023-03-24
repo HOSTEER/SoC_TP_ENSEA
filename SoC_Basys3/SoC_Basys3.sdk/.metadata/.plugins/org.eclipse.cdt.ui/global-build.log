@@ -1,4 +1,442 @@
-20:42:30 **** Build of project Test_IP_bsp ****
+10:16:10 **** Incremental Build of configuration Debug for project Test_IP ****
+make all 
+make: Nothing to be done for 'all'.
+10:22:10 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_IP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_IP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3200	    312	   3104	   6616	   19d8	Test_IP.elf
+'Finished building: Test_IP.elf.size'
+' '
+10:31:29 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'sw2leds':
+../src/main.c:14:22: warning: unused variable 'ptrSw' [-Wunused-variable]
+  volatile uint16_t * ptrSw = (uint16_t *)(XPAR_GPIO_2_BASEADDR);
+                      ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_IP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_IP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3200	    312	   3104	   6616	   19d8	Test_IP.elf
+'Finished building: Test_IP.elf.size'
+' '
+10:32:38 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'sw2leds':
+../src/main.c:14:22: warning: unused variable 'ptrSw' [-Wunused-variable]
+  volatile uint16_t * ptrSw = (uint16_t *)(XPAR_GPIO_2_BASEADDR);
+                      ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_IP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_IP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3200	    312	   3104	   6616	   19d8	Test_IP.elf
+'Finished building: Test_IP.elf.size'
+' '
+10:34:50 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_IP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_IP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3200	    312	   3104	   6616	   19d8	Test_IP.elf
+'Finished building: Test_IP.elf.size'
+' '
+10:35:28 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_IP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_IP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3200	    312	   3104	   6616	   19d8	Test_IP.elf
+'Finished building: Test_IP.elf.size'
+' '
+10:36:23 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_IP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_IP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3240	    312	   3104	   6656	   1a00	Test_IP.elf
+'Finished building: Test_IP.elf.size'
+' '
+10:36:25 **** Incremental Build of configuration Debug for project Test_IP ****
+make all 
+make: Nothing to be done for 'all'.
+10:37:11 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_IP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_IP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2864	    312	   3104	   6280	   1888	Test_IP.elf
+'Finished building: Test_IP.elf.size'
+' '
+10:37:14 **** Incremental Build of configuration Debug for project Test_IP ****
+make all 
+make: Nothing to be done for 'all'.
+10:38:36 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_IP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_IP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3200	    312	   3104	   6616	   19d8	Test_IP.elf
+'Finished building: Test_IP.elf.size'
+' '
+10:38:40 **** Incremental Build of configuration Debug for project Test_IP ****
+make all 
+make: Nothing to be done for 'all'.
+10:39:48 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_IP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_IP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2864	    312	   3104	   6280	   1888	Test_IP.elf
+'Finished building: Test_IP.elf.size'
+' '
+10:39:51 **** Incremental Build of configuration Debug for project Test_IP ****
+make all 
+make: Nothing to be done for 'all'.
+10:44:31 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_IP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_IP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2864	    312	   3104	   6280	   1888	Test_IP.elf
+'Finished building: Test_IP.elf.size'
+' '
+10:47:02 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_IP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_IP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2864	    312	   3104	   6280	   1888	Test_IP.elf
+'Finished building: Test_IP.elf.size'
+' '
+11:06:53 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'cheniller':
+../src/main.c:26:40: warning: statement with no effect [-Wunused-value]
+  else if(pos>4000&&dir){*ptrLed=pos;pos>>1;dir=0;}
+                                     ~~~^~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_IP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_IP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2864	    312	   3104	   6280	   1888	Test_IP.elf
+'Finished building: Test_IP.elf.size'
+' '
+11:07:12 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_IP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_IP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2864	    312	   3104	   6280	   1888	Test_IP.elf
+'Finished building: Test_IP.elf.size'
+' '
+11:07:32 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_IP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_IP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3224	    316	   3108	   6648	   19f8	Test_IP.elf
+'Finished building: Test_IP.elf.size'
+' '
+11:07:35 **** Incremental Build of configuration Debug for project Test_IP ****
+make all 
+make: Nothing to be done for 'all'.
+11:08:54 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'cheniller':
+../src/main.c:25:9: error: expected expression before '<' token
+  if(pos=<0x4000&&dir){*ptrLed=pos;pos=pos<<1;}
+         ^
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+11:08:58 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_IP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_IP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3224	    316	   3108	   6648	   19f8	Test_IP.elf
+'Finished building: Test_IP.elf.size'
+' '
+11:09:01 **** Incremental Build of configuration Debug for project Test_IP ****
+make all 
+make: Nothing to be done for 'all'.
+11:09:16 **** Incremental Build of configuration Debug for project Test_IP ****
+make all 
+make: Nothing to be done for 'all'.
+11:10:18 **** Incremental Build of configuration Debug for project Test_IP ****
+make all 
+make: Nothing to be done for 'all'.
+11:14:19 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_IP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_IP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3224	    316	   3108	   6648	   19f8	Test_IP.elf
+'Finished building: Test_IP.elf.size'
+' '
+11:14:22 **** Incremental Build of configuration Debug for project Test_IP ****
+make all 
+make: Nothing to be done for 'all'.
+11:16:03 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'cheniller':
+../src/main.c:25:24: error: 'ptros' undeclared (first use in this function); did you mean 'pos'?
+  if(pos<=0x4000&&dir){*ptros=Led=pos;ppos<<1;}
+                        ^~~~~
+                        pos
+../src/main.c:25:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:25:30: error: 'Led' undeclared (first use in this function)
+  if(pos<=0x4000&&dir){*ptros=Led=pos;ppos<<1;}
+                              ^~~
+../src/main.c:25:38: error: 'ppos' undeclared (first use in this function); did you mean 'pos'?
+  if(pos<=0x4000&&dir){*ptros=Led=pos;ppos<<1;}
+                                      ^~~~
+                                      pos
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+11:16:09 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'cheniller':
+../src/main.c:25:24: error: 'ptros' undeclared (first use in this function); did you mean 'pos'?
+  if(pos<=0x4000&&dir){*ptros=Led=pos;pos<<1;}
+                        ^~~~~
+                        pos
+../src/main.c:25:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:25:30: error: 'Led' undeclared (first use in this function)
+  if(pos<=0x4000&&dir){*ptros=Led=pos;pos<<1;}
+                              ^~~
+../src/main.c:25:41: warning: statement with no effect [-Wunused-value]
+  if(pos<=0x4000&&dir){*ptros=Led=pos;pos<<1;}
+                                      ~~~^~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+11:16:19 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'cheniller':
+../src/main.c:25:38: warning: statement with no effect [-Wunused-value]
+  if(pos<=0x4000&&dir){*ptrLed=pos;pos<<1;}
+                                   ~~~^~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_IP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_IP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3192	    316	   3108	   6616	   19d8	Test_IP.elf
+'Finished building: Test_IP.elf.size'
+' '
+11:16:26 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_IP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_IP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3224	    316	   3108	   6648	   19f8	Test_IP.elf
+'Finished building: Test_IP.elf.size'
+' '
+11:16:31 **** Incremental Build of configuration Debug for project Test_IP ****
+make all 
+make: Nothing to be done for 'all'.
+11:17:26 **** Auto Build of configuration Debug for project Test_IP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_IP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_IP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3224	    316	   3108	   6648	   19f8	Test_IP.elf
+'Finished building: Test_IP.elf.size'
+' '
+11:21:50 **** Build of project Test_SEG7_bsp ****
 make -k all 
 "Running Make include in microblaze_0/libsrc/bram_v4_3/src"
 make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
@@ -35,215 +473,986 @@ microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly
 make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
 "Compiling uartlite"
 'Finished building libraries'
-
-**** Build of configuration Debug for project Test_IP ****
-
-Nothing to build for project Test_IP
-20:43:03 **** Auto Build of configuration Debug for project Test_IP ****
-make all 
-'Building file: ../src/main.c'
-'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
-'Finished building: ../src/main.c'
-' '
-'Building target: Test_IP.elf'
-'Invoking: MicroBlaze gcc linker'
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-d:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: d:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/crtinit.o: in function `_crtinit':
-(.text+0x78): undefined reference to `main'
-collect2.exe: error: ld returned 1 exit status
-make: *** [makefile:38: Test_IP.elf] Error 1
-20:43:20 **** Clean-only build of configuration Debug for project Test_IP ****
-make clean 
-rm -rf  ./src/main.o  ./src/main.d  Test_IP.elf.size  Test_IP.elf
-' '
-
-****  of configuration Debug for project Test_IP ****
-
-Nothing to build for project Test_IP
-20:43:23 **** Auto Build of configuration Debug for project Test_IP ****
-make all 
-'Building file: ../src/main.c'
-'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
-'Finished building: ../src/main.c'
-' '
-'Building target: Test_IP.elf'
-'Invoking: MicroBlaze gcc linker'
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-d:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: d:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/crtinit.o: in function `_crtinit':
-(.text+0x78): undefined reference to `main'
-collect2.exe: error: ld returned 1 exit status
-make: *** [makefile:38: Test_IP.elf] Error 1
-20:43:40 **** Clean-only build of configuration Debug for project Test_IP ****
-make clean 
-rm -rf  ./src/main.o  ./src/main.d  Test_IP.elf.size  Test_IP.elf
-' '
-
-****  of configuration Debug for project Test_IP ****
-
-Nothing to build for project Test_IP
-20:43:53 **** Auto Build of configuration Debug for project Test_IP ****
-make all 
-'Building file: ../src/main.c'
-'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
-'Finished building: ../src/main.c'
-' '
-'Building target: Test_IP.elf'
-'Invoking: MicroBlaze gcc linker'
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-d:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: d:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/crtinit.o: in function `_crtinit':
-(.text+0x78): undefined reference to `main'
-collect2.exe: error: ld returned 1 exit status
-make: *** [makefile:38: Test_IP.elf] Error 1
-20:44:38 **** Build of project Test_IP_bsp ****
-make -k all 
-"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
-make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
-make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Running Make include in microblaze_0/libsrc/gpio_v4_4/src"
-make -C microblaze_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Running Make include in microblaze_0/libsrc/intc_v3_9/src"
-make -C microblaze_0/libsrc/intc_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
-make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
-make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
-make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Compiling bram"
-mb-ar: creating ../../../lib/libxil.a
-"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
-make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Compiling cpu"
-"Running Make libs in microblaze_0/libsrc/gpio_v4_4/src"
-make -C microblaze_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Compiling gpio"
-"Running Make libs in microblaze_0/libsrc/intc_v3_9/src"
-make -C microblaze_0/libsrc/intc_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Compiling intc"
-"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
-make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Compiling standalone";
-microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
- #pragma message ("For the sleep routines, assembly instructions are used")
-         ^~~~~~~
-"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
-make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Compiling uartlite"
-'Finished building libraries'
-20:44:45 **** Auto Build of project Test_IP_bsp ****
-make -k all 
-"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
-make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
-make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Running Make include in microblaze_0/libsrc/gpio_v4_4/src"
-make -C microblaze_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Running Make include in microblaze_0/libsrc/intc_v3_9/src"
-make -C microblaze_0/libsrc/intc_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
-make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
-make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
-make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Compiling bram"
-"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
-make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Compiling cpu"
-"Running Make libs in microblaze_0/libsrc/gpio_v4_4/src"
-make -C microblaze_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Compiling gpio"
-"Running Make libs in microblaze_0/libsrc/intc_v3_9/src"
-make -C microblaze_0/libsrc/intc_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Compiling intc"
-"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
-make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Compiling standalone";
-microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
- #pragma message ("For the sleep routines, assembly instructions are used")
-         ^~~~~~~
-"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
-make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
-"Compiling uartlite"
-'Finished building libraries'
-20:44:51 **** Build of configuration Debug for project Test_IP ****
+11:21:57 **** Build of configuration Debug for project Test_SEG7 ****
 make all 
 'Building file: ../src/helloworld.c'
 'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Test_SEG7_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 'Finished building: ../src/helloworld.c'
 ' '
 'Building file: ../src/platform.c'
 'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Test_SEG7_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
 'Finished building: ../src/platform.c'
 ' '
-'Building target: Test_IP.elf'
+'Building target: Test_SEG7.elf'
 'Invoking: MicroBlaze gcc linker'
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: Test_IP.elf'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_SEG7_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_SEG7.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_SEG7.elf'
 ' '
 'Invoking: MicroBlaze Print Size'
-mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+mb-size Test_SEG7.elf  |tee "Test_SEG7.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   3116	    312	   3108	   6536	   1988	Test_IP.elf
-'Finished building: Test_IP.elf.size'
+   3116	    312	   3108	   6536	   1988	Test_SEG7.elf
+'Finished building: Test_SEG7.elf.size'
 ' '
-20:44:53 **** Auto Build of configuration Debug for project Test_IP ****
+11:21:59 **** Auto Build of configuration Debug for project Test_SEG7 ****
 make all 
 make: Nothing to be done for 'all'.
-20:46:02 **** Clean-only build of configuration Debug for project Test_IP ****
+11:22:27 **** Clean-only build of configuration Debug for project Test_SEG7 ****
 make clean 
-rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  Test_IP.elf.size  Test_IP.elf
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  Test_SEG7.elf.size  Test_SEG7.elf
 ' '
-20:46:02 **** Auto Build of configuration Debug for project Test_IP ****
+11:22:27 **** Auto Build of configuration Debug for project Test_SEG7 ****
 make all 
 'Building file: ../src/main.c'
 'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_SEG7_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
 'Finished building: ../src/main.c'
 ' '
 'Building file: ../src/platform.c'
 'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Test_SEG7_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
 'Finished building: ../src/platform.c'
 ' '
-'Building target: Test_IP.elf'
+'Building target: Test_SEG7.elf'
 'Invoking: MicroBlaze gcc linker'
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: Test_IP.elf'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_SEG7_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_SEG7.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_SEG7.elf'
 ' '
 'Invoking: MicroBlaze Print Size'
-mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+mb-size Test_SEG7.elf  |tee "Test_SEG7.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   3116	    312	   3108	   6536	   1988	Test_IP.elf
-'Finished building: Test_IP.elf.size'
+   3116	    312	   3108	   6536	   1988	Test_SEG7.elf
+'Finished building: Test_SEG7.elf.size'
 ' '
-20:46:20 **** Auto Build of configuration Debug for project Test_IP ****
+11:22:41 **** Auto Build of configuration Debug for project Test_SEG7 ****
 make all 
 'Building file: ../src/main.c'
 'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_IP_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_SEG7_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
 'Finished building: ../src/main.c'
 ' '
-'Building target: Test_IP.elf'
+'Building target: Test_SEG7.elf'
 'Invoking: MicroBlaze gcc linker'
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_IP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_IP.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: Test_IP.elf'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_SEG7_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_SEG7.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_SEG7.elf'
 ' '
 'Invoking: MicroBlaze Print Size'
-mb-size Test_IP.elf  |tee "Test_IP.elf.size"
+mb-size Test_SEG7.elf  |tee "Test_SEG7.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   3116	    312	   3108	   6536	   1988	Test_IP.elf
-'Finished building: Test_IP.elf.size'
+   3224	    316	   3108	   6648	   19f8	Test_SEG7.elf
+'Finished building: Test_SEG7.elf.size'
 ' '
-20:46:52 **** Incremental Build of configuration Debug for project Test_IP ****
+11:23:54 **** Auto Build of configuration Debug for project Test_SEG7 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_SEG7_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:32:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ sw2seg(){
+ ^~~~~~
+../src/main.c: In function 'sw2seg':
+../src/main.c:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+At top level:
+../src/main.c:33:7: warning: 'sw2seg' defined but not used [-Wunused-function]
+  void sw2seg(){
+       ^~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_SEG7.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_SEG7_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_SEG7.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_SEG7.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_SEG7.elf  |tee "Test_SEG7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3224	    316	   3108	   6648	   19f8	Test_SEG7.elf
+'Finished building: Test_SEG7.elf.size'
+' '
+11:24:08 **** Auto Build of configuration Debug for project Test_SEG7 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_SEG7_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:32:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ sw2seg(){
+ ^~~~~~
+../src/main.c:70:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+../src/main.c: In function 'sw2seg':
+../src/main.c:69:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+11:24:14 **** Auto Build of configuration Debug for project Test_SEG7 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_SEG7_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:32:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ sw2seg(){
+ ^~~~~~
+../src/main.c: In function 'sw2seg':
+../src/main.c:69:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_SEG7.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_SEG7_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_SEG7.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_SEG7.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_SEG7.elf  |tee "Test_SEG7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3224	    316	   3108	   6648	   19f8	Test_SEG7.elf
+'Finished building: Test_SEG7.elf.size'
+' '
+11:24:26 **** Auto Build of configuration Debug for project Test_SEG7 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_SEG7_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_SEG7.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_SEG7_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_SEG7.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_SEG7.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_SEG7.elf  |tee "Test_SEG7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3224	    316	   3108	   6648	   19f8	Test_SEG7.elf
+'Finished building: Test_SEG7.elf.size'
+' '
+11:29:45 **** Auto Build of configuration Debug for project Test_SEG7 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_SEG7_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_SEG7.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_SEG7_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_SEG7.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_SEG7.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_SEG7.elf  |tee "Test_SEG7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3224	    316	   3108	   6648	   19f8	Test_SEG7.elf
+'Finished building: Test_SEG7.elf.size'
+' '
+11:30:24 **** Auto Build of configuration Debug for project Test_SEG7 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_SEG7_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_SEG7.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_SEG7_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_SEG7.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_SEG7.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_SEG7.elf  |tee "Test_SEG7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3224	    316	   3108	   6648	   19f8	Test_SEG7.elf
+'Finished building: Test_SEG7.elf.size'
+' '
+11:31:26 **** Auto Build of configuration Debug for project Test_SEG7 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_SEG7_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_SEG7.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_SEG7_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_SEG7.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_SEG7.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_SEG7.elf  |tee "Test_SEG7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3696	    312	   3112	   7120	   1bd0	Test_SEG7.elf
+'Finished building: Test_SEG7.elf.size'
+' '
+11:31:36 **** Incremental Build of configuration Debug for project Test_IP ****
 make all 
 make: Nothing to be done for 'all'.
-20:47:01 **** Incremental Build of configuration Debug for project Test_IP ****
+11:32:02 **** Incremental Build of configuration Debug for project Test_SEG7 ****
 make all 
 make: Nothing to be done for 'all'.
+11:32:15 **** Auto Build of configuration Debug for project Test_SEG7 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_SEG7_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_SEG7.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_SEG7_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_SEG7.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_SEG7.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_SEG7.elf  |tee "Test_SEG7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3692	    312	   3116	   7120	   1bd0	Test_SEG7.elf
+'Finished building: Test_SEG7.elf.size'
+' '
+11:32:23 **** Incremental Build of configuration Debug for project Test_SEG7 ****
+make all 
+make: Nothing to be done for 'all'.
+11:32:30 **** Auto Build of configuration Debug for project Test_SEG7 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_SEG7_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_SEG7.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_SEG7_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_SEG7.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_SEG7.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_SEG7.elf  |tee "Test_SEG7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3692	    312	   3116	   7120	   1bd0	Test_SEG7.elf
+'Finished building: Test_SEG7.elf.size'
+' '
+11:32:35 **** Incremental Build of configuration Debug for project Test_SEG7 ****
+make all 
+make: Nothing to be done for 'all'.
+11:33:23 **** Auto Build of configuration Debug for project Test_SEG7 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_SEG7_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_SEG7.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_SEG7_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_SEG7.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_SEG7.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_SEG7.elf  |tee "Test_SEG7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2864	    312	   3104	   6280	   1888	Test_SEG7.elf
+'Finished building: Test_SEG7.elf.size'
+' '
+11:33:26 **** Incremental Build of configuration Debug for project Test_SEG7 ****
+make all 
+make: Nothing to be done for 'all'.
+11:33:39 **** Auto Build of configuration Debug for project Test_SEG7 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_SEG7_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_SEG7.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_SEG7_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_SEG7.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_SEG7.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_SEG7.elf  |tee "Test_SEG7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3692	    312	   3116	   7120	   1bd0	Test_SEG7.elf
+'Finished building: Test_SEG7.elf.size'
+' '
+11:33:41 **** Incremental Build of configuration Debug for project Test_SEG7 ****
+make all 
+make: Nothing to be done for 'all'.
+11:36:24 **** Auto Build of configuration Debug for project Test_SEG7 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_SEG7_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_SEG7.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_SEG7_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_SEG7.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_SEG7.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_SEG7.elf  |tee "Test_SEG7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3692	    312	   3116	   7120	   1bd0	Test_SEG7.elf
+'Finished building: Test_SEG7.elf.size'
+' '
+11:36:44 **** Auto Build of configuration Debug for project Test_SEG7 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_SEG7_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_SEG7.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_SEG7_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_SEG7.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_SEG7.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_SEG7.elf  |tee "Test_SEG7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3692	    312	   3116	   7120	   1bd0	Test_SEG7.elf
+'Finished building: Test_SEG7.elf.size'
+' '
+11:37:57 **** Auto Build of configuration Debug for project Test_SEG7 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Test_SEG7_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Test_SEG7.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Test_SEG7_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Test_SEG7.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Test_SEG7.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Test_SEG7.elf  |tee "Test_SEG7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3692	    312	   3116	   7120	   1bd0	Test_SEG7.elf
+'Finished building: Test_SEG7.elf.size'
+' '
+11:41:48 **** Build of project Animer_hello_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_4/src"
+make -C microblaze_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_9/src"
+make -C microblaze_0/libsrc/intc_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_4/src"
+make -C microblaze_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_9/src"
+make -C microblaze_0/libsrc/intc_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+11:41:55 **** Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3116	    312	   3108	   6536	   1988	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+11:41:57 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+make: Nothing to be done for 'all'.
+11:42:21 **** Clean-only build of configuration Debug for project Animer_hello ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  Animer_hello.elf.size  Animer_hello.elf
+' '
+11:42:21 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3116	    312	   3108	   6536	   1988	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+11:42:39 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3692	    312	   3116	   7120	   1bd0	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+11:42:45 **** Incremental Build of configuration Debug for project Animer_hello ****
+make all 
+make: Nothing to be done for 'all'.
+11:45:42 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'Afficher_hello':
+../src/main.c:18:9: error: 'displaySelect' undeclared (first use in this function); did you mean 'displaySelected'?
+  switch(displaySelect){
+         ^~~~~~~~~~~~~
+         displaySelected
+../src/main.c:18:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'main':
+../src/main.c:64:6: warning: implicit declaration of function 'sw2seg'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+      sw2seg();
+      ^~~~~~
+      strsep
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+11:45:49 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:64:6: warning: implicit declaration of function 'sw2seg'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+      sw2seg();
+      ^~~~~~
+      strsep
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main.o: in function `main':
+C:\Users\Louis\Desktop\SoC_TP_ENSEA\SoC_Basys3\SoC_Basys3.sdk\Animer_hello\Debug/../src/main.c:64: undefined reference to `sw2seg'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: Animer_hello.elf] Error 1
+11:46:08 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:65:6: warning: implicit declaration of function 'sw2seg'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+      sw2seg();
+      ^~~~~~
+      strsep
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main.o: in function `main':
+C:\Users\Louis\Desktop\SoC_TP_ENSEA\SoC_Basys3\SoC_Basys3.sdk\Animer_hello\Debug/../src/main.c:65: undefined reference to `sw2seg'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: Animer_hello.elf] Error 1
+11:46:59 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:66:6: warning: implicit declaration of function 'sw2seg'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+      sw2seg();
+      ^~~~~~
+      strsep
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main.o: in function `main':
+C:\Users\Louis\Desktop\SoC_TP_ENSEA\SoC_Basys3\SoC_Basys3.sdk\Animer_hello\Debug/../src/main.c:66: undefined reference to `sw2seg'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: Animer_hello.elf] Error 1
+11:47:19 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:66:6: warning: implicit declaration of function 'sw2seg'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+      sw2seg();
+      ^~~~~~
+      strsep
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main.o: in function `main':
+C:\Users\Louis\Desktop\SoC_TP_ENSEA\SoC_Basys3\SoC_Basys3.sdk\Animer_hello\Debug/../src/main.c:66: undefined reference to `sw2seg'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: Animer_hello.elf] Error 1
+11:48:01 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    332	   3116	   7272	   1c68	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+11:48:06 **** Incremental Build of configuration Debug for project Animer_hello ****
+make all 
+make: Nothing to be done for 'all'.
+11:50:01 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    332	   3116	   7272	   1c68	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+11:50:08 **** Incremental Build of configuration Debug for project Animer_hello ****
+make all 
+make: Nothing to be done for 'all'.
+11:50:38 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    332	   3116	   7272	   1c68	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+11:50:43 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    328	   3112	   7264	   1c60	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+11:50:46 **** Incremental Build of configuration Debug for project Animer_hello ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:22 **** Incremental Build of configuration Debug for project Animer_hello ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:37 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    328	   3112	   7264	   1c60	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+11:58:39 **** Incremental Build of configuration Debug for project Animer_hello ****
+make all 
+make: Nothing to be done for 'all'.
+11:59:05 **** Incremental Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    328	   3112	   7264	   1c60	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+11:59:24 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    328	   3112	   7264	   1c60	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+11:59:30 **** Incremental Build of configuration Debug for project Animer_hello ****
+make all 
+make: Nothing to be done for 'all'.
+12:02:20 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    328	   3112	   7264	   1c60	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+12:02:31 **** Incremental Build of configuration Debug for project Animer_hello ****
+make all 
+make: Nothing to be done for 'all'.
+12:02:52 **** Incremental Build of configuration Debug for project Animer_hello ****
+make all 
+make: Nothing to be done for 'all'.
+12:06:13 **** Incremental Build of configuration Debug for project Animer_hello ****
+make all 
+make: Nothing to be done for 'all'.
+12:09:36 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    332	   3116	   7272	   1c68	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+12:10:09 **** Incremental Build of configuration Debug for project Animer_hello ****
+make all 
+make: Nothing to be done for 'all'.
+12:10:29 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    332	   3116	   7272	   1c68	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+12:10:32 **** Incremental Build of configuration Debug for project Animer_hello ****
+make all 
+make: Nothing to be done for 'all'.
+12:11:02 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    332	   3116	   7272	   1c68	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+12:11:05 **** Incremental Build of configuration Debug for project Animer_hello ****
+make all 
+make: Nothing to be done for 'all'.
+12:11:34 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    332	   3116	   7272	   1c68	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+12:11:40 **** Incremental Build of configuration Debug for project Animer_hello ****
+make all 
+make: Nothing to be done for 'all'.
+12:11:58 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    332	   3116	   7272	   1c68	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+12:12:00 **** Incremental Build of configuration Debug for project Animer_hello ****
+make all 
+make: Nothing to be done for 'all'.
+12:15:15 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    332	   3116	   7272	   1c68	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+12:18:21 **** Incremental Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    332	   3116	   7272	   1c68	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+12:18:36 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    332	   3116	   7272	   1c68	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+12:18:38 **** Incremental Build of configuration Debug for project Animer_hello ****
+make all 
+make: Nothing to be done for 'all'.
+12:20:26 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    332	   3116	   7272	   1c68	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+12:21:17 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    332	   3116	   7272	   1c68	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+12:21:19 **** Incremental Build of configuration Debug for project Animer_hello ****
+make all 
+make: Nothing to be done for 'all'.
+19:16:20 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'Animer_message':
+../src/main.c:53:3: error: 'refresh' undeclared (first use in this function)
+   refresh=0;
+   ^~~~~~~
+../src/main.c:53:3: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+19:16:29 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    332	   3116	   7272	   1c68	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
+19:18:07 **** Incremental Build of configuration Debug for project Animer_hello ****
+make all 
+make: Nothing to be done for 'all'.
+19:20:21 **** Auto Build of configuration Debug for project Animer_hello ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Animer_hello_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Animer_hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Animer_hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Animer_hello.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Animer_hello.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Animer_hello.elf  |tee "Animer_hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3824	    332	   3116	   7272	   1c68	Animer_hello.elf
+'Finished building: Animer_hello.elf.size'
+' '
